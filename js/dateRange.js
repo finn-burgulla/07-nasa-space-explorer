@@ -1,5 +1,6 @@
 
 // NOTE: You do not need to edit this file.
+// Copy that
 
 // NASA's APOD API only has images from June 16, 1995 onwards
 const earliestDate = '1995-06-16';
