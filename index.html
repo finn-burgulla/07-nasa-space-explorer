@@ -4,6 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>NASA Space Explorer</title>
+  <!-- Add Inter font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,700&display=swap" rel="stylesheet" />
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -19,10 +21,25 @@
       <button>Get Space Images</button>
     </div>
 
+    <!-- Space Fact container -->
+    <div id="space-fact" class="space-fact"></div>
+
     <div id="gallery" class="gallery">
+      <!-- Images will be inserted here by script.js -->
       <div class="placeholder">
         <div class="placeholder-icon">🔭</div>
         <p>Select a date range and click "Get Space Images" to explore the cosmos!</p>
+      </div>
+    </div>
+
+    <!-- Modal for image details -->
+    <div id="modal" class="modal" style="display: none;">
+      <div class="modal-content">
+        <span id="modal-close" class="modal-close">&times;</span>
+        <img id="modal-img" src="" alt="" />
+        <h3 id="modal-title"></h3>
+        <p id="modal-date"></p>
+        <p id="modal-explanation"></p>
       </div>
     </div>
   </div>
