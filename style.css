@@ -263,3 +263,17 @@ button:hover {
   line-height: 1.5;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+/* Footer styles */
+.site-footer {
+  background-color: #0b3d91; /* NASA Blue */
+  color: #fff;
+  text-align: center;
+  padding: 18px 0 16px 0;
+  font-size: 1.05em;
+  font-family: 'Inter', 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  letter-spacing: 0.5px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.04);
+}
