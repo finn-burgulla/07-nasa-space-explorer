@@ -163,3 +163,4 @@ modal.addEventListener('click', (event) => {
   }
 });
 
+// end of script.js
